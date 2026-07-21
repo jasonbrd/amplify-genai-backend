@@ -92,7 +92,7 @@ python-dotenv==1.0.1
     # via -r requirements.in
 python-jose==3.4.0
     # via -r requirements.in
-referencing==0.35.1
+referencing==0.37.0
     # via
     #   jsonschema
     #   jsonschema-specifications
