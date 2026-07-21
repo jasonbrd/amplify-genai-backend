@@ -21,7 +21,7 @@ jiter==0.16.0
     # via openai
 jose==1.0.0
     # via -r requirements.in
-numpy==2.2.1
+numpy==2.5.1
     # via pgvector
 openai==2.5.0
     # via -r requirements.in
