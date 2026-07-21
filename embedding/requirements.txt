@@ -23,7 +23,7 @@ jose==1.0.0
     # via -r requirements.in
 numpy==2.2.1
     # via pgvector
-openai==2.5.0
+openai==2.46.0
     # via -r requirements.in
 pgvector==0.4.1
     # via -r requirements.in
