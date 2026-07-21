@@ -88,7 +88,7 @@ pyparsing==3.2.1
     # via httplib2
 python-dateutil==2.9.0.post0
     # via botocore
-python-dotenv==1.0.1
+python-dotenv==1.2.2
     # via -r requirements.in
 python-jose==3.4.0
     # via -r requirements.in
