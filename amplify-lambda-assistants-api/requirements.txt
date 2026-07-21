@@ -9,7 +9,7 @@ aiohttp==3.11.11
     # via -r requirements.in (for async HTTP requests)
 cachetools==5.5.2
     # via google-auth
-certifi==2025.6.15
+certifi==2026.6.17
     # via requests
 cffi==1.17.1
     # via cryptography
