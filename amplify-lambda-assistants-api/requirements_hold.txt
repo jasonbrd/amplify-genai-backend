@@ -27,7 +27,7 @@ ecdsa==0.19.1
     # via python-jose
 google-api-core==2.24.0
     # via google-api-python-client
-google-api-python-client==2.157.0
+google-api-python-client==2.198.0
     # via -r requirements.in
 google-auth==2.56.2
     # via
