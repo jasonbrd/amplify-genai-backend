@@ -82,7 +82,7 @@ pyasn1-modules==0.4.2
     # via google-auth
 pydantic==2.10.4
     # via -r requirements.in
-pydantic-core==2.27.2
+pydantic-core==2.47.0
     # via pydantic
 pyparsing==3.2.1
     # via httplib2
