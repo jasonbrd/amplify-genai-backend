@@ -50,7 +50,7 @@ httplib2==0.22.0
     #   google-auth-httplib2
 idna==3.10
     # via requests
-jmespath==1.0.1
+jmespath==1.1.0
     # via
     #   boto3
     #   botocore
