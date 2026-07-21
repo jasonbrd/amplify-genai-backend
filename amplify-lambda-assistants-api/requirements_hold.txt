@@ -40,7 +40,7 @@ google-auth-httplib2==0.2.0
     # via
     #   -r requirements.in
     #   google-api-python-client
-google-auth-oauthlib==1.2.1
+google-auth-oauthlib==1.4.0
     # via -r requirements.in
 googleapis-common-protos==1.66.0
     # via google-api-core
