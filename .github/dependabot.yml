@@ -6,14 +6,14 @@ updates:
     schedule:
       interval: "weekly"
     target-branch: "dev"
-    open-pull-requests-limit: 0
+    open-pull-requests-limit: 5
 
   - package-ecosystem: "npm"
     directory: "/amplify-lambda-js"
     schedule:
       interval: "weekly"
     target-branch: "dev"
-    open-pull-requests-limit: 0
+    open-pull-requests-limit: 5
 
   # --- pip ---
   - package-ecosystem: "pip"
@@ -21,123 +21,123 @@ updates:
     schedule:
       interval: "weekly"
     target-branch: "dev"
-    open-pull-requests-limit: 0
+    open-pull-requests-limit: 5
 
   - package-ecosystem: "pip"
     directory: "/amplify-assistants"
     schedule:
       interval: "weekly"
     target-branch: "dev"
-    open-pull-requests-limit: 0
+    open-pull-requests-limit: 5
 
   - package-ecosystem: "pip"
     directory: "/amplify-lambda-admin"
     schedule:
       interval: "weekly"
     target-branch: "dev"
-    open-pull-requests-limit: 0
+    open-pull-requests-limit: 5
 
   - package-ecosystem: "pip"
     directory: "/amplify-lambda-api"
     schedule:
       interval: "weekly"
     target-branch: "dev"
-    open-pull-requests-limit: 0
+    open-pull-requests-limit: 5
 
   - package-ecosystem: "pip"
     directory: "/amplify-lambda-artifacts"
     schedule:
       interval: "weekly"
     target-branch: "dev"
-    open-pull-requests-limit: 0
+    open-pull-requests-limit: 5
 
   - package-ecosystem: "pip"
     directory: "/amplify-lambda-assistants-api-google"
     schedule:
       interval: "weekly"
     target-branch: "dev"
-    open-pull-requests-limit: 0
+    open-pull-requests-limit: 5
 
   - package-ecosystem: "pip"
     directory: "/amplify-lambda-assistants-api-office365"
     schedule:
       interval: "weekly"
     target-branch: "dev"
-    open-pull-requests-limit: 0
+    open-pull-requests-limit: 5
 
   - package-ecosystem: "pip"
     directory: "/amplify-lambda-assistants-api"
     schedule:
       interval: "weekly"
     target-branch: "dev"
-    open-pull-requests-limit: 0
+    open-pull-requests-limit: 5
 
   - package-ecosystem: "pip"
     directory: "/amplify-lambda-js/litellm"
     schedule:
       interval: "weekly"
     target-branch: "dev"
-    open-pull-requests-limit: 0
+    open-pull-requests-limit: 5
 
   - package-ecosystem: "pip"
     directory: "/amplify-lambda-ops"
     schedule:
       interval: "weekly"
     target-branch: "dev"
-    open-pull-requests-limit: 0
+    open-pull-requests-limit: 5
 
   - package-ecosystem: "pip"
     directory: "/amplify-lambda-python-base"
     schedule:
       interval: "weekly"
     target-branch: "dev"
-    open-pull-requests-limit: 0
+    open-pull-requests-limit: 5
 
   - package-ecosystem: "pip"
     directory: "/amplify-lambda/markitdown"
     schedule:
       interval: "weekly"
     target-branch: "dev"
-    open-pull-requests-limit: 0
+    open-pull-requests-limit: 5
 
   - package-ecosystem: "pip"
     directory: "/amplify-lambda"
     schedule:
       interval: "weekly"
     target-branch: "dev"
-    open-pull-requests-limit: 0
+    open-pull-requests-limit: 5
 
   - package-ecosystem: "pip"
     directory: "/chat-billing"
     schedule:
       interval: "weekly"
     target-branch: "dev"
-    open-pull-requests-limit: 0
+    open-pull-requests-limit: 5
 
   - package-ecosystem: "pip"
     directory: "/data-disclosure"
     schedule:
       interval: "weekly"
     target-branch: "dev"
-    open-pull-requests-limit: 0
+    open-pull-requests-limit: 5
 
   - package-ecosystem: "pip"
     directory: "/embedding"
     schedule:
       interval: "weekly"
     target-branch: "dev"
-    open-pull-requests-limit: 0
+    open-pull-requests-limit: 5
 
   - package-ecosystem: "pip"
     directory: "/object-access"
     schedule:
       interval: "weekly"
     target-branch: "dev"
-    open-pull-requests-limit: 0
+    open-pull-requests-limit: 5
 
   - package-ecosystem: "pip"
     directory: "/scripts"
     schedule:
       interval: "weekly"
     target-branch: "dev"
-    open-pull-requests-limit: 0
+    open-pull-requests-limit: 5
