@@ -5,7 +5,7 @@ cryptography
 python-jose
 jsonschema
 Pillow>=11.3.0
-pydantic>=2.11.9
+pydantic>=2.13.4
 python-dotenv
 requests
 PyYAML
