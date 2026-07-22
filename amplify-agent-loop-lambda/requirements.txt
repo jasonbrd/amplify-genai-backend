@@ -4,7 +4,7 @@ aws-xray-sdk==2.14.0
 litellm==1.78.7
 pydantic>=2.10.4
 requests==2.32.4
-jsonschema>=4.24.0
+jsonschema>=4.26.0
 boto3==1.38.32
 python-jose>=3.5.0
 Pillow==11.3.0
