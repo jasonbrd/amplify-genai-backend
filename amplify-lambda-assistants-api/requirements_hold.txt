@@ -68,7 +68,7 @@ pillow==11.3.0
     # via -r requirements.in
 proto-plus==1.25.0
     # via google-api-core
-protobuf==6.31.1
+protobuf==7.35.1
     # via
     #   google-api-core
     #   googleapis-common-protos
