@@ -1,13 +1,143 @@
-# To get started with Dependabot version updates, you'll need to specify which
-# package ecosystems to update and where the package manifests are located.
-# Please see the documentation for all configuration options:
-# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
-
 version: 2
 updates:
-  - package-ecosystem: "pip"
+  # --- npm ---
+  - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
-    target-branch: "dev"  # Specify the branch to create pull requests against
-    open-pull-requests-limit: 20
+    target-branch: "dev"
+    open-pull-requests-limit: 0
+
+  - package-ecosystem: "npm"
+    directory: "/amplify-lambda-js"
+    schedule:
+      interval: "weekly"
+    target-branch: "dev"
+    open-pull-requests-limit: 0
+
+  # --- pip ---
+  - package-ecosystem: "pip"
+    directory: "/amplify-agent-loop-lambda"
+    schedule:
+      interval: "weekly"
+    target-branch: "dev"
+    open-pull-requests-limit: 0
+
+  - package-ecosystem: "pip"
+    directory: "/amplify-assistants"
+    schedule:
+      interval: "weekly"
+    target-branch: "dev"
+    open-pull-requests-limit: 0
+
+  - package-ecosystem: "pip"
+    directory: "/amplify-lambda-admin"
+    schedule:
+      interval: "weekly"
+    target-branch: "dev"
+    open-pull-requests-limit: 0
+
+  - package-ecosystem: "pip"
+    directory: "/amplify-lambda-api"
+    schedule:
+      interval: "weekly"
+    target-branch: "dev"
+    open-pull-requests-limit: 0
+
+  - package-ecosystem: "pip"
+    directory: "/amplify-lambda-artifacts"
+    schedule:
+      interval: "weekly"
+    target-branch: "dev"
+    open-pull-requests-limit: 0
+
+  - package-ecosystem: "pip"
+    directory: "/amplify-lambda-assistants-api-google"
+    schedule:
+      interval: "weekly"
+    target-branch: "dev"
+    open-pull-requests-limit: 0
+
+  - package-ecosystem: "pip"
+    directory: "/amplify-lambda-assistants-api-office365"
+    schedule:
+      interval: "weekly"
+    target-branch: "dev"
+    open-pull-requests-limit: 0
+
+  - package-ecosystem: "pip"
+    directory: "/amplify-lambda-assistants-api"
+    schedule:
+      interval: "weekly"
+    target-branch: "dev"
+    open-pull-requests-limit: 0
+
+  - package-ecosystem: "pip"
+    directory: "/amplify-lambda-js/litellm"
+    schedule:
+      interval: "weekly"
+    target-branch: "dev"
+    open-pull-requests-limit: 0
+
+  - package-ecosystem: "pip"
+    directory: "/amplify-lambda-ops"
+    schedule:
+      interval: "weekly"
+    target-branch: "dev"
+    open-pull-requests-limit: 0
+
+  - package-ecosystem: "pip"
+    directory: "/amplify-lambda-python-base"
+    schedule:
+      interval: "weekly"
+    target-branch: "dev"
+    open-pull-requests-limit: 0
+
+  - package-ecosystem: "pip"
+    directory: "/amplify-lambda/markitdown"
+    schedule:
+      interval: "weekly"
+    target-branch: "dev"
+    open-pull-requests-limit: 0
+
+  - package-ecosystem: "pip"
+    directory: "/amplify-lambda"
+    schedule:
+      interval: "weekly"
+    target-branch: "dev"
+    open-pull-requests-limit: 0
+
+  - package-ecosystem: "pip"
+    directory: "/chat-billing"
+    schedule:
+      interval: "weekly"
+    target-branch: "dev"
+    open-pull-requests-limit: 0
+
+  - package-ecosystem: "pip"
+    directory: "/data-disclosure"
+    schedule:
+      interval: "weekly"
+    target-branch: "dev"
+    open-pull-requests-limit: 0
+
+  - package-ecosystem: "pip"
+    directory: "/embedding"
+    schedule:
+      interval: "weekly"
+    target-branch: "dev"
+    open-pull-requests-limit: 0
+
+  - package-ecosystem: "pip"
+    directory: "/object-access"
+    schedule:
+      interval: "weekly"
+    target-branch: "dev"
+    open-pull-requests-limit: 0
+
+  - package-ecosystem: "pip"
+    directory: "/scripts"
+    schedule:
+      interval: "weekly"
+    target-branch: "dev"
+    open-pull-requests-limit: 0
