@@ -11,4 +11,4 @@ Pillow==11.3.0
 python-dotenv>=1.1.0
 pyyaml
 croniter==6.0.0
-rpds-py>=0.18.0
+rpds-py>=2026.6.3

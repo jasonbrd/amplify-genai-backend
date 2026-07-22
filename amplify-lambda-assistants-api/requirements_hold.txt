@@ -106,7 +106,7 @@ requests==2.32.4
     #   tiktoken
 requests-oauthlib==2.0.0
     # via google-auth-oauthlib
-rpds-py==0.22.3
+rpds-py==2026.6.3
     # via
     #   jsonschema
     #   referencing
