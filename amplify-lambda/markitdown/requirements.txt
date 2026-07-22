@@ -22,6 +22,6 @@ pymupdf==1.26.0
     # via -r requirements.in
 
 # Required for pycommon modules and rag/core
-pydantic>=2.0.0
+pydantic>=2.13.4
 PyYAML>=6.0.0
 
