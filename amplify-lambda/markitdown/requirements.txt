@@ -18,7 +18,7 @@ urllib3==2.3.0
     # via -r requirements.in
 nltk==3.9.2
     # via -r requirements.in
-pymupdf==1.26.0
+pymupdf==1.28.0
     # via -r requirements.in
 
 # Required for pycommon modules and rag/core
