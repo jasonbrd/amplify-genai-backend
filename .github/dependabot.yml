@@ -6,7 +6,7 @@ updates:
     schedule:
       interval: "weekly"
     target-branch: "dev"
-    open-pull-requests-limit: 5
+    open-pull-requests-limit: 0
     groups:
       npm-security-patches:
         applies-to: security-updates
@@ -20,7 +20,7 @@ updates:
     schedule:
       interval: "weekly"
     target-branch: "dev"
-    open-pull-requests-limit: 5
+    open-pull-requests-limit: 0
     groups:
       npm-security-patches:
         applies-to: security-updates
