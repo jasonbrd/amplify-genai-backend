@@ -27,7 +27,7 @@ openai==2.5.0
     # via -r requirements.in
 pgvector==0.4.1
     # via -r requirements.in
-psycopg2-binary==2.9.10
+psycopg2-binary==2.9.12
     # via -r requirements.in
 regex==2025.9.18
     # via tiktoken
