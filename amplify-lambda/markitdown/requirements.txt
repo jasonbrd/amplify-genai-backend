@@ -1,6 +1,6 @@
 # Markitdown dependencies
-markitdown[all]==0.1.0a1
-markitdown[az-doc-intel]==0.1.0a1
+markitdown[all]==0.1.6
+markitdown[az-doc-intel]==0.1.6
 olefile>=0.47
 chardet==7.4.3
     # via -r requirements.in
