@@ -10,7 +10,7 @@ python-dotenv
 requests
 PyYAML
 openpyxl
-beautifulsoup4>=4.13.4
+beautifulsoup4>=4.15.0
 pypdfium2
 python-pptx
 nltk==3.9.2
