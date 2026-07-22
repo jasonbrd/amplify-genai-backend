@@ -62,7 +62,7 @@ jsonschema-specifications==2024.10.1
     # via
     #   -r requirements.in
     #   jsonschema
-oauthlib==3.2.2
+oauthlib==3.3.1
     # via requests-oauthlib
 pillow==11.3.0
     # via -r requirements.in
