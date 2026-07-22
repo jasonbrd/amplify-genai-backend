@@ -48,7 +48,7 @@ httplib2==0.22.0
     # via
     #   google-api-python-client
     #   google-auth-httplib2
-idna==3.10
+idna==3.18
     # via requests
 jmespath==1.0.1
     # via
