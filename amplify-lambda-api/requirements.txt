@@ -9,5 +9,5 @@ pillow==11.3.0
     # via -r requirements.in
 pyyaml==6.0.2
     # via -r requirements.in
-regex==2025.9.18
+regex==2026.7.19
     # via -r requirements.in
