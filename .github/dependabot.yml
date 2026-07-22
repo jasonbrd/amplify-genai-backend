@@ -7,6 +7,13 @@ updates:
       interval: "weekly"
     target-branch: "dev"
     open-pull-requests-limit: 5
+    groups:
+      npm-security-patches:
+        applies-to: security-updates
+        update-types:
+          - "patch"
+          - "minor"
+          - "major"
 
   - package-ecosystem: "npm"
     directory: "/amplify-lambda-js"
@@ -14,6 +21,13 @@ updates:
       interval: "weekly"
     target-branch: "dev"
     open-pull-requests-limit: 5
+    groups:
+      npm-security-patches:
+        applies-to: security-updates
+        update-types:
+          - "patch"
+          - "minor"
+          - "major"
 
   # --- pip ---
   - package-ecosystem: "pip"
@@ -22,6 +36,13 @@ updates:
       interval: "weekly"
     target-branch: "dev"
     open-pull-requests-limit: 5
+    groups:
+      pip-security-patches:
+        applies-to: security-updates
+        update-types:
+          - "patch"
+          - "minor"
+          - "major"
 
   - package-ecosystem: "pip"
     directory: "/amplify-assistants"
@@ -29,6 +50,13 @@ updates:
       interval: "weekly"
     target-branch: "dev"
     open-pull-requests-limit: 5
+    groups:
+      pip-security-patches:
+        applies-to: security-updates
+        update-types:
+          - "patch"
+          - "minor"
+          - "major"
 
   - package-ecosystem: "pip"
     directory: "/amplify-lambda-admin"
@@ -36,6 +64,13 @@ updates:
       interval: "weekly"
     target-branch: "dev"
     open-pull-requests-limit: 5
+    groups:
+      pip-security-patches:
+        applies-to: security-updates
+        update-types:
+          - "patch"
+          - "minor"
+          - "major"
 
   - package-ecosystem: "pip"
     directory: "/amplify-lambda-api"
@@ -43,6 +78,13 @@ updates:
       interval: "weekly"
     target-branch: "dev"
     open-pull-requests-limit: 5
+    groups:
+      pip-security-patches:
+        applies-to: security-updates
+        update-types:
+          - "patch"
+          - "minor"
+          - "major"
 
   - package-ecosystem: "pip"
     directory: "/amplify-lambda-artifacts"
@@ -50,6 +92,13 @@ updates:
       interval: "weekly"
     target-branch: "dev"
     open-pull-requests-limit: 5
+    groups:
+      pip-security-patches:
+        applies-to: security-updates
+        update-types:
+          - "patch"
+          - "minor"
+          - "major"
 
   - package-ecosystem: "pip"
     directory: "/amplify-lambda-assistants-api-google"
@@ -57,6 +106,13 @@ updates:
       interval: "weekly"
     target-branch: "dev"
     open-pull-requests-limit: 5
+    groups:
+      pip-security-patches:
+        applies-to: security-updates
+        update-types:
+          - "patch"
+          - "minor"
+          - "major"
 
   - package-ecosystem: "pip"
     directory: "/amplify-lambda-assistants-api-office365"
@@ -64,6 +120,13 @@ updates:
       interval: "weekly"
     target-branch: "dev"
     open-pull-requests-limit: 5
+    groups:
+      pip-security-patches:
+        applies-to: security-updates
+        update-types:
+          - "patch"
+          - "minor"
+          - "major"
 
   - package-ecosystem: "pip"
     directory: "/amplify-lambda-assistants-api"
@@ -71,6 +134,13 @@ updates:
       interval: "weekly"
     target-branch: "dev"
     open-pull-requests-limit: 5
+    groups:
+      pip-security-patches:
+        applies-to: security-updates
+        update-types:
+          - "patch"
+          - "minor"
+          - "major"
 
   - package-ecosystem: "pip"
     directory: "/amplify-lambda-js/litellm"
@@ -78,6 +148,13 @@ updates:
       interval: "weekly"
     target-branch: "dev"
     open-pull-requests-limit: 5
+    groups:
+      pip-security-patches:
+        applies-to: security-updates
+        update-types:
+          - "patch"
+          - "minor"
+          - "major"
 
   - package-ecosystem: "pip"
     directory: "/amplify-lambda-ops"
@@ -85,6 +162,13 @@ updates:
       interval: "weekly"
     target-branch: "dev"
     open-pull-requests-limit: 5
+    groups:
+      pip-security-patches:
+        applies-to: security-updates
+        update-types:
+          - "patch"
+          - "minor"
+          - "major"
 
   - package-ecosystem: "pip"
     directory: "/amplify-lambda-python-base"
@@ -92,6 +176,13 @@ updates:
       interval: "weekly"
     target-branch: "dev"
     open-pull-requests-limit: 5
+    groups:
+      pip-security-patches:
+        applies-to: security-updates
+        update-types:
+          - "patch"
+          - "minor"
+          - "major"
 
   - package-ecosystem: "pip"
     directory: "/amplify-lambda/markitdown"
@@ -99,6 +190,13 @@ updates:
       interval: "weekly"
     target-branch: "dev"
     open-pull-requests-limit: 5
+    groups:
+      pip-security-patches:
+        applies-to: security-updates
+        update-types:
+          - "patch"
+          - "minor"
+          - "major"
 
   - package-ecosystem: "pip"
     directory: "/amplify-lambda"
@@ -106,6 +204,13 @@ updates:
       interval: "weekly"
     target-branch: "dev"
     open-pull-requests-limit: 5
+    groups:
+      pip-security-patches:
+        applies-to: security-updates
+        update-types:
+          - "patch"
+          - "minor"
+          - "major"
 
   - package-ecosystem: "pip"
     directory: "/chat-billing"
@@ -113,6 +218,13 @@ updates:
       interval: "weekly"
     target-branch: "dev"
     open-pull-requests-limit: 5
+    groups:
+      pip-security-patches:
+        applies-to: security-updates
+        update-types:
+          - "patch"
+          - "minor"
+          - "major"
 
   - package-ecosystem: "pip"
     directory: "/data-disclosure"
@@ -120,6 +232,13 @@ updates:
       interval: "weekly"
     target-branch: "dev"
     open-pull-requests-limit: 5
+    groups:
+      pip-security-patches:
+        applies-to: security-updates
+        update-types:
+          - "patch"
+          - "minor"
+          - "major"
 
   - package-ecosystem: "pip"
     directory: "/embedding"
@@ -127,6 +246,13 @@ updates:
       interval: "weekly"
     target-branch: "dev"
     open-pull-requests-limit: 5
+    groups:
+      pip-security-patches:
+        applies-to: security-updates
+        update-types:
+          - "patch"
+          - "minor"
+          - "major"
 
   - package-ecosystem: "pip"
     directory: "/object-access"
@@ -134,6 +260,13 @@ updates:
       interval: "weekly"
     target-branch: "dev"
     open-pull-requests-limit: 5
+    groups:
+      pip-security-patches:
+        applies-to: security-updates
+        update-types:
+          - "patch"
+          - "minor"
+          - "major"
 
   - package-ecosystem: "pip"
     directory: "/scripts"
@@ -141,3 +274,10 @@ updates:
       interval: "weekly"
     target-branch: "dev"
     open-pull-requests-limit: 5
+    groups:
+      pip-security-patches:
+        applies-to: security-updates
+        update-types:
+          - "patch"
+          - "minor"
+          - "major"
